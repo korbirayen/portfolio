@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: nunito;
+}
+
+.logo{
+    display: block;
+    margin: 60px;
+    left: 0;
+    width: 211px;
+    height: 63px;
+    border: solid 2px black;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px black;
+    transition: width ease-in-out 0.5s ,
+                height ease-in-out 0.5s
+                ;
+}
+.logo:hover{
+    width: 222px;
+    height: 66px;
+}
+
+header{
+    display: flex;
+    background-color: #EDF7FA;
+    width: 100%;
+    justify-content: center;
+}
+
+nav{
+    display: inline-flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px;
+    background-color: white;
+}
+
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav li{
+    float: left;
+    padding: 25px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fcfaeedc;
+    padding: 20px 35px;
+    background-color: #507687;
+    text-shadow: 1px 1px 5px #507687;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    transition: background-color ease-in-out 0.5s ,
+                color ease-in-out 0.5s
+    ;
+}
+
+nav a:hover{
+    background-color: #384B70;
+    color: #FCFAEE;
+}
+
+
+/*Let's work together*/
+.btn{
+    text-decoration: none;
+    display: inline-flex;
+    position: relative;
+    float: right;
+    margin: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #E14D2A;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px black;
+    color: #FCFAEE;
+    font-size: 27px;
+    font-weight: 700;
+    transition: background-color ease-in-out 0.5s;
+}
+
+.btn:hover{
+    background-color: #DD2C00;
+}
