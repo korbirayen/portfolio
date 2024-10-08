@@ -8,6 +8,8 @@ body{
     font-family: nunito;
 }
 
+/*Header start*/
+
 .logo{
     display: block;
     margin: 60px;
@@ -97,3 +99,62 @@ nav a:hover{
 .btn:hover{
     background-color: #DD2C00;
 }
+
+
+/*Header end*/
+
+
+
+/*section start*/
+.hero{
+    display: flex;
+    background-color: #507687;
+}
+
+.hero img{
+    padding: 50px;
+    margin-left: 100px;
+}
+
+.text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    margin-right: 300px;
+    padding: 50px;
+    width: 40%;
+    height: auto;
+}
+
+
+.text h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text p{
+    margin-top: 50px;
+    line-height: 30px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.text a{
+    text-decoration: none;
+    color :#FCFAEE ; 
+    background-color: #DD2C00;
+    margin-top: 60px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px black;
+    font-size: 20px;
+    font-weight: 600;
+    transition: background-color ease-in-out 0.5s;
+}
+
+.text a:hover{
+    background-color: #E14D2A;
+}
+
+/*section end*/
