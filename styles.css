@@ -338,12 +338,177 @@ nav a:hover{
 
 
 /*Contact start*/
+
+.contactini{
+    display: flex;
+    justify-content: center;
+    background-color: #507687;
+    margin: 30px;
+    align-items: center;
+    padding: 40px;
+    flex-direction: column;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/envelope.png);
+    width: 750px;
+    height: 530px;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    z-index: 1;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.contact-form h1{
+    text-align: center;
+    color: #E14D2A;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.contact-form label{
+    color :#384B70;
+    font-size: 18px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 450px;
+    background-color: #EDF7FA;
+    padding: 5px;
+    border: 1px solid #507687;
+    border-radius: 5px;
+}
+
+#formSubmit{
+    background-color: #DD2C00;
+    color:#FCFAEE ;
+    padding: 15px 0 15px 0;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+
+.cubes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color :#e14c2a;
+    margin: 40px;
+    text-align: center;
+}
+.cubes h2{
+    color: #EDF7FA;
+    font-size: 30px;
+    font-weight: 600;
+}
+#numail{
+    color: #384B70;
+    font-size: 25px;
+    font-weight: 600;
+}
+.cubes a{
+    text-decoration: none;
+    color: #384B70;
+    transition: color ease-in-out 0.5s;
+}
+.cubes a:hover{
+    color :#DD2C00;
+}
+
+
+.cube{
+    background-color :#FCFAEE;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 5px 20px;
+}
+
 /*Contact end*/
 
 
-
-
-
 /*Footer start*/
+footer{
+    display: block;
+    background-color:#384B70;
+}
 
+.footer-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navigation ul , .social ul{
+    list-style-type: none;
+    display: inline-block;
+    padding: 100px;
+    margin: 10px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: #507687;
+    font-size: 30px;
+    font-weight: 500;
+    text-shadow: 2px 2px 5px #50768773;
+    transition: color ease-in-out 0.2s;
+}
+.navigation li img{
+    width: 20px;
+}
+.navigation li a:hover{
+    color :#DD2C00;
+}
+
+.social li{
+    float: left;
+    margin: 20px;
+}
+.social img{
+    width: 50px;
+    box-shadow: 2px 2px 10px #50768773;
+    transition: width ease-in-out 0.1s;
+}
+.social img:hover{
+    width: 52px;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    color: #e14c2ad8;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+#aina{
+    color: #E14D2A;
+    text-decoration: none;
+    transition: color ease-in-out 0.2s;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+#aina:hover{
+    color:#be2600;
+}
 /*Footer end*/
