@@ -5,7 +5,8 @@
 }
 
 body{
-    font-family: nunito;
+    font-family: nunito , Arial;
+    scroll-behavior: smooth;
 }
 
 /*Header start*/
@@ -107,6 +108,7 @@ nav a:hover{
 
 /*section start*/
 .hero{
+    margin-top: 60px;
     display: flex;
     background-color: #507687;
 }
@@ -131,6 +133,7 @@ nav a:hover{
 .text h1{
     font-size: 40px;
     font-weight: 700;
+    color: #FCFAEE;
 }
 
 .text p{
@@ -138,6 +141,7 @@ nav a:hover{
     line-height: 30px;
     font-size: 28px;
     font-weight: 400;
+    color: #fdfcf8;
 }
 
 .text a{
@@ -158,3 +162,188 @@ nav a:hover{
 }
 
 /*section end*/
+
+/*Project start*/
+
+.project-container{
+    background-color :#384B70;
+    display: block;
+    margin: 120px 30px;
+}
+
+.project-container h1{
+    display: flex;
+    justify-content: center;
+    padding: 130px 0 0 50px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #FCFAEE;
+}
+
+.projects{
+    display:flex;
+    margin: 60px;
+    padding: 80px;
+    background-color :#507687;
+}
+
+.project-card{
+    display: block;
+    padding: 40px;
+    width: auto;
+    background-color  :#384b708a;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.project-card h2{
+    margin: 10px;
+    text-align: center;
+    color: #EDF7FA;
+    font-weight :600;
+    font-size: 35px;
+}
+
+.project-card p{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FCFAEE;
+}
+
+.project-rm{
+    text-decoration: none;
+    color: #FCFAEE;
+    display: flex;
+    background-color: #E14D2A;
+    justify-content: center;
+    align-items: center;
+    margin-top : 20px;
+    padding: 10px;
+}
+
+#moreprjctsh1{
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+#moreprjctsa{
+    display: block;
+    text-decoration: none;
+    background-color: #DD2C00;
+    color: #EDF7FA;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    left: 20px;
+}
+
+/*Project end*/
+
+/*Blog start*/
+
+.blog-container{
+    background-color:#384B70;
+    display: flex;
+    margin: 120px 30px;
+    justify-content: center;
+}
+
+.blogs{
+    background-color:#507687;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+}
+
+.blog-text{
+    text-align: center;
+    margin: 10px;
+}
+.blog-text h1{
+    color: #FCFAEE;
+    font-size: 50px;
+    font-weight: 700;
+}
+.blog-text h2{
+    color: #EDF7FA;
+    font-size: 30px;
+}
+
+.visit{
+    background-color :#384B70;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+}
+.visit a{
+    background-color :#E14D2A;
+    display: inline-flex;
+    margin-top: 30px;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: #EDF7FA;
+    font-size: 20px;
+    font-weight: 500;
+}
+.visit h3{
+    color: #FCFAEE;
+    font-size: 25px;
+}
+
+
+.lastpost{
+    background-color :#384B70;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+}
+.lastpost img{
+    width: 85%;
+    height: auto;
+}
+.lastpost h3{
+    margin-bottom: 5px;
+    color: #FCFAEE;
+    font-size: 25px;
+}
+.lastpost h4{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #EDF7FA;
+}
+.lastpost p{
+    color: #EDF7FA;
+}
+.lastpost a{
+    color: #DD2C00;
+    font-size: 18px;
+    text-shadow: 2px 2px 5px ;
+    transition: color ease-in-out 0.5s;
+}
+.lastpost a:hover{
+    color: #be2600;
+}
+/*Blog end*/
+
+
+
+/*Contact start*/
+/*Contact end*/
+
+
+
+
+
+/*Footer start*/
+
+/*Footer end*/
