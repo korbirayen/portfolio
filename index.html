@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Rayenkorbi - home</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,20 +11,20 @@
 </head>
 <body>
 
-    <header>    
-        <img src="images/logo.png" class="logo" alt="" srcset="">
+    <header id="top">    
+        <a href="index.html"><img src="images/myLogo.png" class="logo" alt="" srcset=""></a>
         <nav>
             <ul>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Links</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#contact">Links</a></li>
             </ul>
         </nav>
-        <a href="#" class="btn">Let's work together!</a>
+        <a href="#contact" class="btn">Let's work together!</a>
     </header>
     
-    <section>
+    <section id="hero">
         <div class="hero">
             <img src="images/740x510.png" alt="">
             <div class="text">
@@ -35,7 +35,7 @@
                     also i love {thingie3} <br>
                     and currently i'm working on {thingie4}
                 </p>
-                <a href="#">About me</a>
+                <a href="aboutme.html">About me</a>
             </div>
         </div>
     </section>
@@ -44,19 +44,19 @@
         <h1>Projects</h1>
         <div class="projects">
             <div class="project-card">
-                <img src="images/project.png" alt="">
+                <img src="images/project.png" alt="" id="projectimg">
                 <h2>Project name</h2>
                 <p>project description project <br>  description project description</p>
                 <a href="#" class="project-rm">Read more ...</a>
             </div>
             <div class="project-card">
-                <img src="images/project.png" alt="">
+                <img src="images/project.png" alt="" id="projectimg">
                 <h2>Project name</h2>
                 <p>project description project <br>  description project description</p>
                 <a href="#" class="project-rm">Read more ...</a>
             </div>
-            <div class="project-card">
-                <img src="images/project.png" alt="">
+            <div class="project-card"> 
+                <img src="images/project.png" alt="" id="projectimg">
                 <h2>Project name</h2>
                 <p>project description project <br>  description project description</p>
                 <a href="#" class="project-rm">Read more ...</a>
@@ -75,7 +75,7 @@
             <!--VIEW MORE-->
             <div class="project-card">
                 <h1 id="moreprjctsh1">View More Projects !</h1>
-                <a href="#" id="moreprjctsa">View more ></a>
+                <a href="projects.html" id="moreprjctsa">View more ></a>
             </div>
             
         </div>
@@ -89,7 +89,7 @@
             </div>
             <div class="visit">
                 <h3>Visit My Blog Page</h3>
-                <a href="#">Click Here!</a>
+                <a href="blog.html">Click Here!</a>
             </div>
             <div class="lastpost">
                 <h3>Last Post</h3>
@@ -102,7 +102,7 @@
 
 
 
-    <div class="contactini">
+    <div class="contactini" id="contact">
         <div class="contact-container">
             <form action="#" class="contact-form">
                 <h1>Contact</h1>
@@ -157,25 +157,25 @@
         <div class="footer-container">
             <div class="navigation">
                 <ul>
-                    <li><a href="#">Go back to the top <img src="images/angle-up.svg" alt=""></a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#top">Go back to the top <img src="images/angle-up.svg" alt=""></a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="social">
                 <ul>
-                    <li><a href=""><img src="images/facebook.svg" alt=""></a></li>
-                    <li><a href=""><img src="images/instagram.svg" alt=""></a></li>
-                    <li><a href=""><img src="images/x.svg" alt=""></a></li>
-                    <li><a href=""><img src="images/github.svg" alt=""></a></li>
-                    <li><a href=""><img src="images/linkedin.svg" alt=""></a></li>
-                    <li><a href=""><img src="images/whatsapp.svg" alt=""></a></li>
+                    <li><a href="https://www.facebook.com/Rayenzzzzzzzz/"><img src="images/facebook.svg" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/rayen.korbi_/"><img src="images/instagram.svg" alt=""></a></li>
+                    <li><a href="https://x.com/k0_ryn"><img src="images/x.svg" alt=""></a></li>
+                    <li><a href="https://github.com/korbirayen"><img src="images/github.svg" alt=""></a></li>
+                    <li><a href="https://www.linkedin.com/in/rayen-korbi-4ab072240/"><img src="images/linkedin.svg" alt=""></a></li>
+                    <li><a href="https://wa.me/21650243581"><img src="images/whatsapp.svg" alt=""></a></li>
                 </ul>
             </div>
         </div>
-        <p>&copy; 2024 -  <strong><a href="https://linktr.ee/rayenkorbi" id="aina"> Rayen Korbi</a></strong></p>
+        <p>&copy; 2024 -  <strong><a href="https://linktr.ee/rayenkorbi" id="aina"> Rayen Korbi <img src="images/globe.svg" alt="" id="globe"></a></strong></p>
     </footer>
 </body>
 </html>
